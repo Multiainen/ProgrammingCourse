@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86745fb50e6485046815fc26333d6ae2
+timeCreated: 1440027120
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Ground.mat
+  uploadId: 96875

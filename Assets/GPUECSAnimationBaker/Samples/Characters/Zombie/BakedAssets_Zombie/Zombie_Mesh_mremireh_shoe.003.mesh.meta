@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d35a1f944d8243345a48a7ed42208d06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/BakedAssets_Zombie/Zombie_Mesh_mremireh_shoe.003.mesh
+  uploadId: 657126

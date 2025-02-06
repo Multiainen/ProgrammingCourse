@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7e4487b714c10404f906cb7bbf722f6f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Mutant/BakedAssets_Mutant/Mutant_Mesh_MutantMesh.001.mesh
+  uploadId: 657126

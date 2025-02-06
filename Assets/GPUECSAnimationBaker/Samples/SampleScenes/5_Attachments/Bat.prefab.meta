@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ae04234fdf738214d885862253f4e09b
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/5_Attachments/Bat.prefab
+  uploadId: 657126

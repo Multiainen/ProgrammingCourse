@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5979c42854751894c9b4adbab4221cd4
+timeCreated: 1440027097
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Demo_Scene.unity
+  uploadId: 96875

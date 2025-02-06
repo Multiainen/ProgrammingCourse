@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b2c721577688be8428056fcf9cf882f6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/Marathon/MarathonEntities.unity
+  uploadId: 657126

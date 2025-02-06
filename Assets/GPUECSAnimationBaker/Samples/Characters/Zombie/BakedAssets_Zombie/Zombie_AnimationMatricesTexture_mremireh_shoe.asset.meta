@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1aa97bb9e21e864f9e67e026e77595f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/BakedAssets_Zombie/Zombie_AnimationMatricesTexture_mremireh_shoe.asset
+  uploadId: 657126

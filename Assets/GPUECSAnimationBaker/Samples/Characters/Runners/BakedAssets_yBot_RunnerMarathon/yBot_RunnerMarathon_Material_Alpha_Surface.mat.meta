@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ff0aa4d8eac45304eb644de79ac33e2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/BakedAssets_yBot_RunnerMarathon/yBot_RunnerMarathon_Material_Alpha_Surface.mat
+  uploadId: 657126

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a746b3fc04fd10442b4840fa5fbaecd1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria/Maria_AnimationIDs.cs
+  uploadId: 657126

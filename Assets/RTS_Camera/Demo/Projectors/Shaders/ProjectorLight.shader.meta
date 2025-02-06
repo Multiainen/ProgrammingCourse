@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: c0ace1ca4bc0718448acf798c93d52d9
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Projectors/Shaders/ProjectorLight.shader
+  uploadId: 96875

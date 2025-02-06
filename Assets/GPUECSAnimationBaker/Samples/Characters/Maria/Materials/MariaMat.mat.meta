@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f0adb057eae5a0498b5a2bdb8920a15
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/Materials/MariaMat.mat
+  uploadId: 657126

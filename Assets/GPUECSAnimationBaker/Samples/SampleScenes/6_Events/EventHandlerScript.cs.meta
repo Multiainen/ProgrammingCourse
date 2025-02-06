@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 82e5d8893f6c4a5e858669bc1fc25495
+timeCreated: 1692199917
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/6_Events/EventHandlerScript.cs
+  uploadId: 657126

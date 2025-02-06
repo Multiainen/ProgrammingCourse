@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 610a368a5ff883b48afbad8a9e3db082
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch19/BakedAssets_Ch19/Ch19_Material_Ch19.mat
+  uploadId: 657126

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e1528dc0c1dd2984eabe8f1b52f6fc8b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/3_AnimatorParameters/3_AnimatorParameters.unity
+  uploadId: 657126

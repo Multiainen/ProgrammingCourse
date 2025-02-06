@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9483d60e28017a84e963be3acc6e37b8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/Animations/Wave
+    Hip Hop Dance.anim
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b2d8291839513184e9100df2530afd59
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/Animations/Walking.anim
+  uploadId: 657126

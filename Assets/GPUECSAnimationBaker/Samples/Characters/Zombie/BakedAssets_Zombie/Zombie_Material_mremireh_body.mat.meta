@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec0516f6d5cb78e4580b57cfc2bfb22f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/BakedAssets_Zombie/Zombie_Material_mremireh_body.mat
+  uploadId: 657126

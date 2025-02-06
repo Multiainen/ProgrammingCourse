@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 89986e03cd55b6c409cfd34a818c6f4e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria_Attachments/Maria_Attachments_Material_Maria_J_J_Ong.mat.private.0
+  uploadId: 657126

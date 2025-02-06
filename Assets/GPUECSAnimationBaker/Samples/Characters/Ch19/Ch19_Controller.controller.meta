@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9cf0c6fdf0ed20e4cbd21444375b6bde
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch19/Ch19_Controller.controller
+  uploadId: 657126

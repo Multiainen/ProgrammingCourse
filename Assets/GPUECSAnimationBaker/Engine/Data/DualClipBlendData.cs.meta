@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9fdf4cc0cb65414786cc2fb6a30e64f2
+timeCreated: 1679220750
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Engine/Data/DualClipBlendData.cs
+  uploadId: 657126

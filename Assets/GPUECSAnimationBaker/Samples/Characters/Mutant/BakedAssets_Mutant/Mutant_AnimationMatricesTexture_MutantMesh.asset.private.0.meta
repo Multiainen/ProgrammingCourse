@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 057c1eebd1ab6014188ca899661cb6bd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Mutant/BakedAssets_Mutant/Mutant_AnimationMatricesTexture_MutantMesh.asset.private.0
+  uploadId: 657126

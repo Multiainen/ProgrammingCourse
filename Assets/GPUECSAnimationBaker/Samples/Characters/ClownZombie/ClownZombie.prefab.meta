@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b7343037ded62414bb5cdd882889890f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/ClownZombie/ClownZombie.prefab
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1b8a5fefc910394aa163be4fe338e56
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/Materials/Alpha_Joints_MAT.mat
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a1299152cdc7a445ae272a808d55557
+timeCreated: 1440058721
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Targets.mat
+  uploadId: 96875

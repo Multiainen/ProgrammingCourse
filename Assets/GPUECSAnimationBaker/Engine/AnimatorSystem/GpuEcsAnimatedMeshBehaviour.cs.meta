@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b927b9dfd6f248378c3364a809fda80f
+timeCreated: 1678872326
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Engine/AnimatorSystem/GpuEcsAnimatedMeshBehaviour.cs
+  uploadId: 657126

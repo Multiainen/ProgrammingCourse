@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca70b4be86dc47f41ab6124b7a55a8f1
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/6_Events/6_Events.unity
+  uploadId: 657126

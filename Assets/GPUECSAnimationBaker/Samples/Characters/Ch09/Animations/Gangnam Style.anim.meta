@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 513906ca17c83e649a7e4468e08eeb36
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch09/Animations/Gangnam
+    Style.anim
+  uploadId: 657126

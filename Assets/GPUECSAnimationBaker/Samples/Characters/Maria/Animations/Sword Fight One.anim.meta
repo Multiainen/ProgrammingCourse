@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c19cf5e6379db9f48a6e5f0384e73ccb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/Animations/Sword
+    Fight One.anim
+  uploadId: 657126

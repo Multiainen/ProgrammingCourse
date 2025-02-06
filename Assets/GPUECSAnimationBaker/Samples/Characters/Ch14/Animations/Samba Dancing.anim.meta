@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5ad11551015fb174bb3377dbf5662207
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch14/Animations/Samba
+    Dancing.anim
+  uploadId: 657126

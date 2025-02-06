@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 22dd2a21f672ad04dac09d431a8f7e3a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/Animations/Running.anim
+  uploadId: 657126

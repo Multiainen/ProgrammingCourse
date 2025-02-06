@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: f43923eb579b5ab44bc30687c03d3abe
+timeCreated: 1438769886
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Scripts/Editor/RTS_CameraEditor.cs
+  uploadId: 96875

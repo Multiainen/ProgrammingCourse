@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1ffc420c5f7246b40a1c00dfe82f5ddf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch46/Animations/Silly
+    Dancing.anim
+  uploadId: 657126

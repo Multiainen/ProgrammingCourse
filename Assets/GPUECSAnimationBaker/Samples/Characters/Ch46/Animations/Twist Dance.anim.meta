@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3ce1bd7df100f1146a813edec4fa8446
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch46/Animations/Twist
+    Dance.anim
+  uploadId: 657126

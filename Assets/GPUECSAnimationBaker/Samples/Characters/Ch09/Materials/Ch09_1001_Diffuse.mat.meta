@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a5d16438f91f3a54a84bc95f4a042993
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch09/Materials/Ch09_1001_Diffuse.mat
+  uploadId: 657126

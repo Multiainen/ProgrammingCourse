@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d1e953069dd267b4e9fa9ea1383c7562
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/4_BlendSampling/4_BlendSamplingEntities.unity
+  uploadId: 657126

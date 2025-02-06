@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8998a78e9406104daf91d38fa29d5f7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/ClownZombie/BakedAssets_ClownZombie/ClownZombie_Mesh_WhiteClown.mesh
+  uploadId: 657126

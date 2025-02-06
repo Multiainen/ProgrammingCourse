@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3071e06b8deebf40860e8e2056e8f65
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/ClownZombie/ClownZombie_Controller.controller
+  uploadId: 657126

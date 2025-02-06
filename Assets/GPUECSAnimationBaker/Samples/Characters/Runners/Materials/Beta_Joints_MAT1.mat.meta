@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f3ca4f4d1e3d5342ac16f535bd635f9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/Materials/Beta_Joints_MAT1.mat
+  uploadId: 657126

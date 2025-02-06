@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f465bd8584c5084aa01856f9ef14d7d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/BakedAssets_Zombie/Zombie_Mesh_mremireh_body.003.mesh
+  uploadId: 657126

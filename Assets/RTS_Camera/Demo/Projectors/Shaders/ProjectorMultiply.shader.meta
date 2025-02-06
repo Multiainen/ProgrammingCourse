@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 01a668cc78047034a8a0c5ca2d24c6f7
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Projectors/Shaders/ProjectorMultiply.shader
+  uploadId: 96875

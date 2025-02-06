@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d44a99f08c2a6514e9eb5b78697d5bf6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/ClownZombie/BakedAssets_ClownZombie/ClownZombie_AnimationMatricesTexture_WhiteClown.asset
+  uploadId: 657126

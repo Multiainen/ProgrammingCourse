@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e3a79f8a01762224ea38e892269ee248
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/Materials/Beta_HighLimbsGeoSG3.mat
+  uploadId: 657126

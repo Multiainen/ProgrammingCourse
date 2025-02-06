@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 10480121047dd614f9c1a0c32f99d9fe
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/2_Transitions/2_TransitionsEntities.unity
+  uploadId: 657126

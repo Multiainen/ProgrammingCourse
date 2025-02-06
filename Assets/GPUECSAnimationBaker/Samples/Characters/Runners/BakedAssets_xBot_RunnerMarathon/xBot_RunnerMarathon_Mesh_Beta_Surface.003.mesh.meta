@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 159a15a37aca9cc4d89996f95b443ba3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/BakedAssets_xBot_RunnerMarathon/xBot_RunnerMarathon_Mesh_Beta_Surface.003.mesh
+  uploadId: 657126

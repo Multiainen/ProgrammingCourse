@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1abad6b2320189a4699bf780c5af557b
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/GPUECSAnimationBakerSamples.asmdef
+  uploadId: 657126

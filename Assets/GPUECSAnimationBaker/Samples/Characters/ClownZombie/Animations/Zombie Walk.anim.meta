@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d0bebd1caf46fd940946b215e948daed
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/ClownZombie/Animations/Zombie
+    Walk.anim
+  uploadId: 657126

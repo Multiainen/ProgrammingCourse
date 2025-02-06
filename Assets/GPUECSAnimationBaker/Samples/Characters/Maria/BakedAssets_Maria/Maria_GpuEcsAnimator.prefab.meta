@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3fa25200b0887e0488bbd82ca7cc1568
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria/Maria_GpuEcsAnimator.prefab
+  uploadId: 657126

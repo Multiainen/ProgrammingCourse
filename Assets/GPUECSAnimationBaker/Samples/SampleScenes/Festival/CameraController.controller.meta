@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ec47981ca6e74404f8ff4685fb96f9a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/Festival/CameraController.controller
+  uploadId: 657126

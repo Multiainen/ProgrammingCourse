@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b83900cbb8fa9cb4fa322481d0c97f46
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/Marathon/CameraAnimation.anim
+  uploadId: 657126

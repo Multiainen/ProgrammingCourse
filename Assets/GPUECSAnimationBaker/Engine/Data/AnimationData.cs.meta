@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 6b1068b7fce641d8a7bc80e6bebcbbe7
+timeCreated: 1678696820
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Engine/Data/AnimationData.cs
+  uploadId: 657126

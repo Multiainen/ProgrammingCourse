@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 92e5d0a002bd0c94b9fa1e31be4f69ee
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/0_Basics/0_BasicsEntities.unity
+  uploadId: 657126

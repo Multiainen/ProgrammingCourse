@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 969b389852fed7e43956e4dfeb1a6aff
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/5_Attachments/HatSphere.prefab
+  uploadId: 657126

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c20c374280fec814f9c8c01c2a0de943
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch14/Ch14.prefab
+  uploadId: 657126

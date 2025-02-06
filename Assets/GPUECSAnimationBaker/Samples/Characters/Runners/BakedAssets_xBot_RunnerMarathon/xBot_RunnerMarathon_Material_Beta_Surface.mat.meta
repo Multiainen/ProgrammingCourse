@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e26723ebc19186e41adf8bca40a6dfc1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/BakedAssets_xBot_RunnerMarathon/xBot_RunnerMarathon_Material_Beta_Surface.mat
+  uploadId: 657126

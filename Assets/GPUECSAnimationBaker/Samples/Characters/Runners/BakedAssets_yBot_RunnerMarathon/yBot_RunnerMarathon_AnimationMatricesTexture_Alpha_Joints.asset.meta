@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba30d793e7d1cb14ab558b187a28d492
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/BakedAssets_yBot_RunnerMarathon/yBot_RunnerMarathon_AnimationMatricesTexture_Alpha_Joints.asset
+  uploadId: 657126

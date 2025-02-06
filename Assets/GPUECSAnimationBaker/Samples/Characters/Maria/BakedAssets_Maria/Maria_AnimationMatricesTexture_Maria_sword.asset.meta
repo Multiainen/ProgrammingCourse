@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3cab340fa76046b4cb3a8cfc49bd9005
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria/Maria_AnimationMatricesTexture_Maria_sword.asset
+  uploadId: 657126

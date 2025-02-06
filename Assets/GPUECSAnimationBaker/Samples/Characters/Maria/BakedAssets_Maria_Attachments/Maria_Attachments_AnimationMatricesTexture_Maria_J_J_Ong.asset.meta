@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65c2f3984651c7a47a267c5d3e6b0139
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria_Attachments/Maria_Attachments_AnimationMatricesTexture_Maria_J_J_Ong.asset
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5eda8b1b75f77604e96c383d36041d00
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2800000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch09/BakedAssets_Ch09/Ch09_AnimationMatricesTexture_Ch09.asset
+  uploadId: 657126

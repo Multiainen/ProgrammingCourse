@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ca4d87d047ca10342b2586723b77a741
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch36/BakedAssets_Ch36/Ch36_GpuEcsAnimator.prefab
+  uploadId: 657126

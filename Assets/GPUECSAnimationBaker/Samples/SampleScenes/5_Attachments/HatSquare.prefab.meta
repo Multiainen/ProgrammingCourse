@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: de61eb70ebe9c564ab540eca5cd85ba5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/5_Attachments/HatSquare.prefab
+  uploadId: 657126

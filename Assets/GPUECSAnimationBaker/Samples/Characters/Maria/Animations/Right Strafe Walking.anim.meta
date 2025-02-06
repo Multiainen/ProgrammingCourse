@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 312090e57f215994b8c5412517da6809
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/Animations/Right
+    Strafe Walking.anim
+  uploadId: 657126

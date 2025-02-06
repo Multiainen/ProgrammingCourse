@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 11457217fa58a8343ab6051a28be2ecb
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Mutant/BakedAssets_Mutant/Mutant_GpuEcsAnimator.prefab
+  uploadId: 657126

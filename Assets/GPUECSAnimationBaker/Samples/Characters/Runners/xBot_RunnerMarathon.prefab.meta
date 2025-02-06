@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1d42b174e8efa6447862c718c375f12f
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Runners/xBot_RunnerMarathon.prefab
+  uploadId: 657126

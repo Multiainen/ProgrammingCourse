@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5d95cc04ad8cd6346b9d8ddc9bef0e2a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch36/Materials/Ch36_Body.mat
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 051cf196d77f7544c8e3f2fc7c55e28d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/BakedAssets_Maria_Attachments/Maria_Attachments_Mesh_Maria_J_J_Ong.mesh
+  uploadId: 657126

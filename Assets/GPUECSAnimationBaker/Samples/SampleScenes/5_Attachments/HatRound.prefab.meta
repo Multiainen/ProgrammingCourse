@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3f3022de3af191d4e9dbf2c6f8a466b2
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/5_Attachments/HatRound.prefab
+  uploadId: 657126

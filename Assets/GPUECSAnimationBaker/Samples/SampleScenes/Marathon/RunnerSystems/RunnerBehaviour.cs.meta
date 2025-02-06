@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 0c500e3ce5e14efdb44c149dffc860b4
+timeCreated: 1679309473
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/SampleScenes/Marathon/RunnerSystems/RunnerBehaviour.cs
+  uploadId: 657126

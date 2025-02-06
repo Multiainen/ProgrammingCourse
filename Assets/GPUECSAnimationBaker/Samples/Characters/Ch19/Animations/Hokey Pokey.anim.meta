@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 89b272242dc72464db9bb9c246c9da5e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch19/Animations/Hokey
+    Pokey.anim
+  uploadId: 657126

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9870fe0a4f781ce45a8ee9076c15be90
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch36/Animations/WalkingNormal.anim
+  uploadId: 657126

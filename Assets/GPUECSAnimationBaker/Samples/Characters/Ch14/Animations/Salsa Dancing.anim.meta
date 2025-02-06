@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 19504a54e82e1044381853afa3b3030f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch14/Animations/Salsa
+    Dancing.anim
+  uploadId: 657126

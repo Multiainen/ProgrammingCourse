@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d885cee48d3fdeb43819720b6f098b53
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch36/BakedAssets_Ch36/Ch36_AnimationInitializerBehaviour.cs
+  uploadId: 657126

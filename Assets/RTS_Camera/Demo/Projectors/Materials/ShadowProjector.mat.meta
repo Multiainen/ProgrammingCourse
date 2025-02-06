@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: e30ff3588e719f34bbf0c66f22d97487
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 43321
+  packageName: RTS camera
+  packageVersion: 1.0
+  assetPath: Assets/RTS_Camera/Demo/Projectors/Materials/ShadowProjector.mat
+  uploadId: 96875

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1d2a511214ffabf438a1e3e39a984840
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Zombie/BakedAssets_Zombie/Zombie_GpuEcsAnimator.prefab
+  uploadId: 657126

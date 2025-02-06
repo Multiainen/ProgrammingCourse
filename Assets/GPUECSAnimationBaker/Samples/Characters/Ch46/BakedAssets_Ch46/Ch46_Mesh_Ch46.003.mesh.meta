@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 52190f00db922444aae6ddc799695545
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Ch46/BakedAssets_Ch46/Ch46_Mesh_Ch46.003.mesh
+  uploadId: 657126

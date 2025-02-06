@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 87729c4184b7e5d49a3c554ed05a9720
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 250425
+  packageName: GPU ECS Animation Baker
+  packageVersion: 1.3.6
+  assetPath: Assets/GPUECSAnimationBaker/Samples/Characters/Maria/Animations/Stable
+    Sword Outward Slash.anim
+  uploadId: 657126
