@@ -7,7 +7,9 @@ using UnityEngine;
 // physics impulse to be added to current entity velocity
 public struct PhysImpulse : IComponentData
 {
-    public float3 value;
+    public readonly float3 value;
+
+    public PhysImpulse(float3 value) {  this.value = value; }
 }
 
 // initial physics velocity and position to assign to a spawning physics object
@@ -20,7 +22,7 @@ public struct PhysSpawn : IComponentData
 // tag signifying entity can be targeted by physics influences
 public struct PhysTarget : IComponentData
 {
-
+    public int type;
 }
 
 // data from physics collision event to be processed

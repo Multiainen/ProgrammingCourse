@@ -15,7 +15,7 @@ public readonly partial struct AspectDwarfSet : IAspect
 
     public void SetPos(ref LocalTransform transformAspect)
     {
-        transformAspect.Position = target.ValueRO.value;
+        transformAspect.Position = target.ValueRO.value + new float3(target.ValueRO.offset.x, 0, target.ValueRO.offset.y);
     }
 
     public void SetRot(int rot)

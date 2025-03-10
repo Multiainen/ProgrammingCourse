@@ -12,6 +12,7 @@ public readonly partial struct AspectDwarfInitialize : IAspect
     private readonly RefRW<TargetRot> rot;
     private readonly RefRW<EnemyID> id;
     private readonly RefRW<DwarfData> data;
+    private readonly RefRW<PhysTarget> physTarget;
     private readonly RefRO<TagInitialize> tagSet;
 
     public void SetPos(ref LocalTransform transformAspect)
@@ -29,15 +30,19 @@ public readonly partial struct AspectDwarfInitialize : IAspect
         this.id.ValueRW.value = id;
     }
 
-    // move waypoint target forward (previous current target is previous target, previous next target is current target, get new next target)
-    public void SetTarget(float3 target, int2 key, float3 nextTarget, int2 nextKey)
+    public void SetType(int type)
     {
-        this.target.ValueRW.value = target;
-        this.target.ValueRW.key = key;
-        this.target.ValueRW.prevValue = target;
-        this.target.ValueRW.prevKey = key;
-        this.target.ValueRW.nextValue = nextTarget;
-        this.target.ValueRW.nextKey = nextKey;
+        physTarget.ValueRW.type = type;
+    }
+
+    // move waypoint target forward (previous current target is previous target, previous next target is current target, get new next target)
+    public void SetTarget(int targetPath, int curPath, float3 initialPos, float2 offset, int waypoint)
+    {
+        target.ValueRW.offset = offset;
+        target.ValueRW.value = initialPos;
+        target.ValueRW.targetPath = targetPath;
+        target.ValueRW.curPath = curPath;
+        target.ValueRW.waypoint = waypoint;
     }
 
     public void SetHP(int hp)

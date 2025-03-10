@@ -5,23 +5,31 @@ using Unity.Entities;
 using UnityEngine;
 
 // authoring for projectile spawner entity
-public class TossSpawnerAuthoring : MonoBehaviour
+[InternalBufferCapacity(2)]
+public struct TossBufferElement : IBufferElementData
 {
-    public GameObject prefab;
+    public Entity ItemEntity;
+}
+public struct TossSpawner : IComponentData { }
+public class TossAuthoring : MonoBehaviour
+{
+    public GameObject[] prefabs;
 }
 
-public class TossSpawnerBaker : Baker<TossSpawnerAuthoring>
+public class TossSpawnerBaker : Baker<TossAuthoring>
 {
-    public override void Bake(TossSpawnerAuthoring authoring)
+    public override void Bake(TossAuthoring authoring)
     {
-        Entity entity = GetEntity(authoring, TransformUsageFlags.Dynamic);
-        AddComponent(entity, new TossSpawner
+        Entity entity = GetEntity(TransformUsageFlags.Dynamic);
+        var buffer = AddBuffer<TossBufferElement>(entity);
+        for (int i = 0; i < authoring.prefabs.Length; i++)
         {
-            prefab = GetEntity(authoring.prefab, TransformUsageFlags.Dynamic)
-        });
+            buffer.Add(new TossBufferElement
+            {
+                ItemEntity = GetEntity(authoring.prefabs[i], TransformUsageFlags.Dynamic)
+            });
+        }
+        AddComponent<TossSpawner>(entity);
     }
 }
-public struct TossSpawner : IComponentData
-{
-    public Entity prefab;
-}
+

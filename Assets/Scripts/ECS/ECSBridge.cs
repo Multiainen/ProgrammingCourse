@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Unity.Entities;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class ECSBridge : MonoBehaviour
 {
@@ -15,21 +16,30 @@ public class ECSBridge : MonoBehaviour
     public HashSet<int2> endNodes; // destination waypoint nodes of routes
     public int2 ultimateNode; // abstract post-destination node, should be transform of goal object so it can be used for orientation
     public int2[] startNodes; // possible start nodes to spawn enemies at
+    public int targetIsland;
+    public int[] spawnPaths;
+
+    public int mapChunksX, mapChunksY, mapChunkSize;
 
     public int3[] collisionFilters; // collision filters for each collision layer
     public List<ProjectileData> addProjectileList = new List<ProjectileData>(); // projectiles designated to be spawned
+    public List<TowerStats> TowerList = new List<TowerStats>(); // projectiles designated to be spawned
+
+    public Material terrainMat;
+    public Material pathMat;
     private float timer = 0;
     private DwarfManager dwarfManager; // managed system to bridge into DOTS
 
     void Start()
     {
         EntityManager _manager = World.DefaultGameObjectInjectionWorld.EntityManager;
-        ResMgr.entityManager = _manager;
 
         // assign this class reference to managed entity
         var finder = _manager.CreateEntityQuery(typeof(ManagedRoot));
         Entity root = finder.GetSingletonEntity();
         _manager.GetComponentData<ManagedRoot>(root).bridge = this;
+        targetIsland = 0;
+        spawnPaths = new int[] { 0, 1, 2 };
     }
 
     void Update()
@@ -54,7 +64,7 @@ public class ECSBridge : MonoBehaviour
             }
         }
 
-        ProjectileTest();
+        //ProjectileTest();
 
     }
 
@@ -64,9 +74,14 @@ public class ECSBridge : MonoBehaviour
         timer += Time.deltaTime;
         if (timer > 1)
         {
-            addProjectileList.Add(new ProjectileData(new float3(76, 5, 50), new float3(UnityEngine.Random.Range(-.6f, .6f), 0, 15), 0));
+            AddProjectile(new float3(76, 5, 50), new float3(UnityEngine.Random.Range(-.6f, .6f), 0, 15), 0);
             timer = 0;
         }
+    }
+
+    public void AddProjectile(float3 loc, float3 force, int type)
+    {
+        addProjectileList.Add(new ProjectileData(loc, force, type));    
     }
 }
 
@@ -96,5 +111,17 @@ public struct EnemyStats
     {
         this.hp = hp;
         this.speed = speed;
+    }
+}
+
+public struct TowerStats
+{
+    public float3 pos;
+    public int type;
+
+    public TowerStats(float3 pos, int type)
+    {
+        this.pos = pos;
+        this.type = type;
     }
 }

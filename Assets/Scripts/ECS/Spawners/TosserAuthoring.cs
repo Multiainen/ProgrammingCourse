@@ -18,5 +18,6 @@ public class TosserAuthoringBaker : Baker<TosserAuthoring>
         AddComponent(entity, new TagInitialize { });
         AddComponent(entity, new TagProjectile { despawnTimer = 5 });
         AddComponent(entity, new PhysSpawn { });
+        AddComponent(entity, new PhysTarget { });
     }
 }

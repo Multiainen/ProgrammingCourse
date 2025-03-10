@@ -8,11 +8,17 @@ public readonly partial struct AspectProjectileLaunch : IAspect
     private readonly RefRO<TagProjectile> projectile;
     private readonly RefRO<TagInitialize> init;
     private readonly RefRW<PhysSpawn> PhysSpawn;
+    private readonly RefRW<PhysTarget> physTarget;
 
     // set initial velocity and position of projectile
     public void SetPhysSpawn(float3 force, float3 pos)
     {
         PhysSpawn.ValueRW.force = force;
         PhysSpawn.ValueRW.pos = pos;
+    }
+
+    public void SetType(int type)
+    {
+        physTarget.ValueRW.type = type;
     }
 }

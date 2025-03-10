@@ -42,13 +42,13 @@ public class Map : MonoBehaviour
                 open.Add(levels[level].possibleNodes[i].array[j]);
             bridge.openNodes.Add(levels[level].possibleNodesKeys[i], open);
         }
-        bridge.enemySpawnCount = new int[levels[level].enemySpawnCounts.Length];
-        bridge.enemySpawnRate = new float[levels[level].enemySpawnRates.Length];
-        for (int i = 0; i < bridge.enemySpawnCount.Length; i++)
-        {
-            bridge.enemySpawnCount[i] = levels[level].enemySpawnCounts[i];
-            bridge.enemySpawnRate[i] = levels[level].enemySpawnRates[i];
-        }
+        //bridge.enemySpawnCount = new int[levels[level].enemySpawnCounts.Length];
+        //bridge.enemySpawnRate = new float[levels[level].enemySpawnRates.Length];
+        //for (int i = 0; i < bridge.enemySpawnCount.Length; i++)
+        //{
+        //    bridge.enemySpawnCount[i] = levels[level].enemySpawnCounts[i];
+        //    bridge.enemySpawnRate[i] = levels[level].enemySpawnRates[i];
+        //}
     }
 }
 

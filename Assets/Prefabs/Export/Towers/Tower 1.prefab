@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2340348648319276371
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 453.87228
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.4999847
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 549.4185
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      propertyPath: m_Name
+      value: Tower 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3176341881421491068}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5416297194901484196}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 394749446437190496}
+  m_SourcePrefab: {fileID: 100100000, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+--- !u!1 &3223450762431424514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 586a9830c26b9ad4eb625ae90bb69562, type: 3}
+  m_PrefabInstance: {fileID: 2340348648319276371}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3176341881421491068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223450762431424514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f826b677ec2c1f448bcbcd79c6515ee9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &-5416297194901484196
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223450762431424514}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f3cb0da7cfd3ff4d91c75fee4b673ae, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &394749446437190496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223450762431424514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e861cd728fd49b69e30e17bd76642da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakerData:
+    animations:
+    - animationID: TowerIdle
+      animatorStateName: TowerIdle
+      animationType: 0
+      singleClipData:
+        animationClip: {fileID: 7400000, guid: 34247feeec717d9409b5ec6a4b6bbfbe, type: 2}
+      dualClipBlendData:
+        blendParameterName: 
+        clip1:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        clip2:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        nbrOfInBetweenSamples: 0
+      loop: 1
+      additionalAnimatorParameterValues: []
+      additionalAnimatorStatesPerLayer: []
+    - animationID: TowerBreak
+      animatorStateName: TowerBreak
+      animationType: 0
+      singleClipData:
+        animationClip: {fileID: 7400000, guid: 946c91731b96e414ea8fd1b7f1801fe4, type: 2}
+      dualClipBlendData:
+        blendParameterName: 
+        clip1:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        clip2:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        nbrOfInBetweenSamples: 0
+      loop: 0
+      additionalAnimatorParameterValues: []
+      additionalAnimatorStatesPerLayer: []
+    generateAnimationIdsEnum: 1
+    animationIdsEnumName: T1AnimID
+    usePredefinedAnimationEventIds: 0
+    predefinedAnimationEventIds: []
+    generateAnimationEventIdsEnum: 0
+    animationEventIdsEnumName: 
+    attachmentAnchors: []
+    generateAttachmentAnchorIdsEnum: 0
+    attachmentAnchorIdsEnumName: 
+    boneUsage:
+      numberOfBonesPerVertex: 6
+      boneUsagesPerLoD: []
+    transformUsageFlagsParent: 2
+    transformUsageFlagsChildren: 1
+  gpuEcsAnimator: {fileID: 1253021750036650191, guid: 3d3040070e7985143a4610705d1ef384, type: 3}

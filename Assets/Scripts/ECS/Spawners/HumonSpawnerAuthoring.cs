@@ -5,23 +5,30 @@ using Unity.Entities;
 using UnityEngine;
 
 // authoring for enemy spawner entity
-public struct HumonSpawner : IComponentData
+[InternalBufferCapacity(2)]
+public struct HumonBufferElement : IBufferElementData
 {
-    public Entity prefab;
+    public Entity ItemEntity;
 }
+public struct HumonSpawner : IComponentData { }
 public class HumonSpawnerAuthoring : MonoBehaviour
 {
-    public GameObject prefab;
+    public GameObject[] prefabs;
 }
 
 public class HumonSpawnerBaker : Baker<HumonSpawnerAuthoring>
 {
     public override void Bake(HumonSpawnerAuthoring authoring)
     {
-        Entity entity = GetEntity(authoring, TransformUsageFlags.Dynamic);
-        AddComponent(entity, new HumonSpawner
+        Entity entity = GetEntity(TransformUsageFlags.Dynamic);
+        var buffer = AddBuffer<HumonBufferElement>(entity);
+        for (int i = 0; i < authoring.prefabs.Length; i++)
         {
-            prefab = GetEntity(authoring.prefab, TransformUsageFlags.Dynamic)
-        });
+            buffer.Add(new HumonBufferElement
+            {
+                ItemEntity = GetEntity(authoring.prefabs[i], TransformUsageFlags.Dynamic)
+            });
+        }
+        AddComponent<HumonSpawner>(entity);
     }
 }

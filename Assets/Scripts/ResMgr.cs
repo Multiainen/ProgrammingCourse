@@ -9,6 +9,8 @@ using UnityEngine.UIElements;
 public static class ResMgr
 {
     private static int nextID = 1;
+    public static readonly int mapHeight = 1000;
+    public static readonly int mapWidth = 1000;
     //public static NativeList<Entity> reTagList = new NativeList<Entity>();
     //public static EntityManager entityManager;
 
