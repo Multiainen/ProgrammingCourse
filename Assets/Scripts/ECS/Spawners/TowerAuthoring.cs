@@ -19,5 +19,6 @@ public class TowerAuthoringBaker : Baker<TowerAuthoring>
         AddComponent(entity, new TowerComponent { });
         AddComponent(entity, new TowerID { });
         AddComponent(entity, new PositionComponent { });
+        AddComponent(entity, new TowerTargetsComponent { });
     }
 }

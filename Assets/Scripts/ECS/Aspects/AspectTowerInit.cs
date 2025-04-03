@@ -1,3 +1,4 @@
+using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
@@ -9,12 +10,18 @@ public readonly partial struct AspectTowerInit : IAspect
     private readonly RefRW<TowerID> tower;
     private readonly RefRO<TagInitialize> init;
     private readonly RefRW<PositionComponent> position;
+    private readonly RefRW<TowerComponent> towerInfo;
+    private readonly RefRW<TowerTargetsComponent> targets;
 
-    // set initial velocity and position of projectile
-    public void Init(float3 pos, int id)
+    // set initial values of tower
+    public void Init(float3 pos, int id, int type)
     {
         tower.ValueRW.value = id;
         position.ValueRW.value = pos;
+        targets.ValueRW.targets = new UnsafeQueue<Entity>(Allocator.Persistent);
+        towerInfo.ValueRW.health = 100;
+        towerInfo.ValueRW.shotHeight = 5;
+        towerInfo.ValueRW.towerType = type;
     }
 }
 

@@ -16,5 +16,10 @@ public class MapAuthoringBaker : Baker<MapAuthoring>
     {
         Entity entity = GetEntity(authoring, TransformUsageFlags.Dynamic);
         AddComponent(entity, new MapComponent { });
+        AddComponent(entity, new MapRefComponent { });
+        AddComponent(entity, new TowerProjectilesToSpawn { });
+        AddComponent(entity, new ExplosionsToSpawn { });
+        AddComponent(entity, new TowerDataRef { });
+        AddComponent(entity, new GoldEarned { });
     }
 }

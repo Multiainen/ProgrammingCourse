@@ -9,28 +9,19 @@ using UnityEngine;
 public readonly partial struct AspectDwarfSet : IAspect
 {
     private readonly RefRW<DwarfTarget> target;
-    private readonly RefRW<TargetRot> rot;
     private readonly RefRW<EnemyID> id;
     private readonly RefRO<TagSetPos> tagSet;
 
-    public void SetPos(ref LocalTransform transformAspect)
+    public void SetPos(ref LocalTransform transformAspect, MapComponent map)
     {
-        transformAspect.Position = target.ValueRO.value + new float3(target.ValueRO.offset.x, 0, target.ValueRO.offset.y);
-    }
+        //float2 pos = mapRef.paths[mapRef.pathIndices[target.ValueRO.curPath] + 21];
+        //transformAspect.Position = new float3(pos.x, 2.5f, pos.y);
 
-    public void SetRot(int rot)
-    {
-        this.rot.ValueRW.target = rot;
+        target.ValueRW.step = map.pathStartStep[target.ValueRO.curPath];
     }
 
     public void SetID(int id)
     {
         this.id.ValueRW.value = id;
-    }
-
-    public void SetTarget(float3 target, int2 key)
-    {
-        this.target.ValueRW.value = target;
-        this.target.ValueRW.key = key;
     }
 }

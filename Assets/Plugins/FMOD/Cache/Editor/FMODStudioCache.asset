@@ -1,0 +1,595 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8671351102921661337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cow_Launch
+  m_EditorClassIdentifier: 
+  Path: event:/Cow_Launch
+  Guid:
+    Data1: 344626572
+    Data2: 1291589170
+    Data3: 1884239032
+    Data4: 1333581251
+  Banks:
+  - {fileID: 2424016474959265322}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 50
+  Length: 0
+--- !u!114 &-7691931446874428311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Swamp_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Swamp_Loop
+  Guid:
+    Data1: -283972019
+    Data2: 1237014995
+    Data3: 1434899074
+    Data4: -197416814
+  Banks:
+  - {fileID: 8138208000510673342}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7250271040258907257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Goblin_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Goblin_Music
+  Guid:
+    Data1: -1174872868
+    Data2: 1211447451
+    Data3: 1590431925
+    Data4: -1783268348
+  Banks:
+  - {fileID: 381308011864490052}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 74710
+--- !u!114 &-6893494912597630720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Logging noises.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Logging noises.bank
+  Name: Logging noises
+  StudioPath: bank:/SFX/Logging noises
+  lastModified: 638784288795197607
+  FileSizes:
+  - Name: Desktop
+    Value: 126112
+  Exists: 0
+--- !u!114 &-6806968083035206941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Lumber_Noise
+  m_EditorClassIdentifier: 
+  Path: event:/Lumber_Noise
+  Guid:
+    Data1: -1070746798
+    Data2: 1341825025
+    Data3: -1677895505
+    Data4: 1652369686
+  Banks:
+  - {fileID: -6893494912597630720}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 80
+  Length: 2000
+--- !u!114 &-5248005026578289017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cow_Passive
+  m_EditorClassIdentifier: 
+  Path: event:/Cow_Passive
+  Guid:
+    Data1: -1740540908
+    Data2: 1226057368
+    Data3: 2057758652
+    Data4: 1121616749
+  Banks:
+  - {fileID: 2424016474959265322}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 820
+--- !u!114 &-4325802099820178575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638784931706933509
+  FileSizes:
+  - Name: Desktop
+    Value: 1790
+  Exists: 1
+--- !u!114 &-4285065540287515059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Water Splash.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Water Splash.bank
+  Name: Water Splash
+  StudioPath: bank:/SFX/Water Splash
+  lastModified: 638784222037620506
+  FileSizes:
+  - Name: Desktop
+    Value: 15264
+  Exists: 0
+--- !u!114 &-3821728879251670828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Goblin_Music_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Goblin_Music_Loop
+  Guid:
+    Data1: 1229532604
+    Data2: 1090439387
+    Data3: -1826038655
+    Data4: -1321855051
+  Banks:
+  - {fileID: 381308011864490052}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 181394
+--- !u!114 &-3451709494225914156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Turret noises.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Turret noises.bank
+  Name: Turret noises
+  StudioPath: bank:/SFX/Turret noises
+  lastModified: 638784288796066197
+  FileSizes:
+  - Name: Desktop
+    Value: 77664
+  Exists: 0
+--- !u!114 &-2557642655961588469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Explosions.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Explosions.bank
+  Name: Explosions
+  StudioPath: 
+  lastModified: 638784301155284097
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2175137207636711692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Explosion
+  m_EditorClassIdentifier: 
+  Path: event:/Explosion
+  Guid:
+    Data1: 709410658
+    Data2: 1235810107
+    Data3: 926278302
+    Data4: 1679444605
+  Banks:
+  - {fileID: -3451709494225914156}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 75
+  Length: 0
+--- !u!114 &-417293814528543046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Swamp_AmbianceWIP
+  m_EditorClassIdentifier: 
+  Path: event:/Swamp_AmbianceWIP
+  Guid:
+    Data1: 689810208
+    Data2: 1266699338
+    Data3: 1303191176
+    Data4: -1712982211
+  Banks:
+  - {fileID: 8138208000510673342}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 155500
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4325802099820178575}
+  - {fileID: 4896105550999879723}
+  - {fileID: 8138208000510673342}
+  - {fileID: 297838492235364827}
+  - {fileID: -3451709494225914156}
+  - {fileID: -4285065540287515059}
+  - {fileID: 381308011864490052}
+  - {fileID: 2424016474959265322}
+  - {fileID: -6893494912597630720}
+  - {fileID: -2557642655961588469}
+  EditorEvents:
+  - {fileID: 2022753769958494147}
+  - {fileID: 5011057639855441796}
+  - {fileID: 1530549594283022234}
+  - {fileID: 4113582707418829346}
+  - {fileID: 7946891995002294482}
+  - {fileID: -3821728879251670828}
+  - {fileID: -7250271040258907257}
+  - {fileID: -417293814528543046}
+  - {fileID: -2175137207636711692}
+  - {fileID: -5248005026578289017}
+  - {fileID: -8671351102921661337}
+  - {fileID: -6806968083035206941}
+  - {fileID: -7691931446874428311}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 4896105550999879723}
+  StringsBanks:
+  - {fileID: -4325802099820178575}
+  cacheTime: 638784931707271127
+  cacheVersion: 131623
+--- !u!114 &297838492235364827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Tower_break_Noises.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Tower_break_Noises.bank
+  Name: Tower_break_Noises
+  StudioPath: bank:/SFX/Tower_break_Noises
+  lastModified: 638782608356949996
+  FileSizes:
+  - Name: Desktop
+    Value: 12896
+  Exists: 0
+--- !u!114 &381308011864490052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Goblin music.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Goblin music.bank
+  Name: Goblin music
+  StudioPath: bank:/Music/Goblin music
+  lastModified: 638784303026566448
+  FileSizes:
+  - Name: Desktop
+    Value: 2945024
+  Exists: 0
+--- !u!114 &1530549594283022234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Rock_Break
+  m_EditorClassIdentifier: 
+  Path: event:/Rock_Break
+  Guid:
+    Data1: 529258343
+    Data2: 1168475974
+    Data3: -354227296
+    Data4: 736086622
+  Banks:
+  - {fileID: -3451709494225914156}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 0
+--- !u!114 &2022753769958494147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Tower_break_1
+  m_EditorClassIdentifier: 
+  Path: event:/Tower_break_1
+  Guid:
+    Data1: 1715045643
+    Data2: 1293183808
+    Data3: -1880864122
+    Data4: 2083368996
+  Banks:
+  - {fileID: 297838492235364827}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 6000
+  Length: 0
+--- !u!114 &2424016474959265322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Cow noises.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Cow noises.bank
+  Name: Cow noises
+  StudioPath: bank:/SFX/Cow noises
+  lastModified: 638784931706360122
+  FileSizes:
+  - Name: Desktop
+    Value: 54176
+  Exists: 1
+--- !u!114 &4113582707418829346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Catapult_Fire
+  m_EditorClassIdentifier: 
+  Path: event:/Catapult_Fire
+  Guid:
+    Data1: 71588601
+    Data2: 1258167061
+    Data3: 1301343893
+    Data4: -1397694348
+  Banks:
+  - {fileID: -3451709494225914156}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 2094
+--- !u!114 &4896105550999879723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638784288792408412
+  FileSizes:
+  - Name: Desktop
+    Value: 1036
+  Exists: 0
+--- !u!114 &5011057639855441796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Catapult_Windup
+  m_EditorClassIdentifier: 
+  Path: event:/Catapult_Windup
+  Guid:
+    Data1: -1304592980
+    Data2: 1161146326
+    Data3: -1348280651
+    Data4: 1788167823
+  Banks:
+  - {fileID: -3451709494225914156}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 2000
+--- !u!114 &7946891995002294482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Water_Splash
+  m_EditorClassIdentifier: 
+  Path: event:/Water_Splash
+  Guid:
+    Data1: -568083491
+    Data2: 1213735716
+    Data3: 1592345752
+    Data4: -109725351
+  Banks:
+  - {fileID: -4285065540287515059}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 70
+  Length: 1906
+--- !u!114 &8138208000510673342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Swamp ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: fmodBog/Build/Desktop/Swamp ambiance.bank
+  Name: Swamp ambiance
+  StudioPath: bank:/Ambiance/Swamp ambiance
+  lastModified: 638784288793409799
+  FileSizes:
+  - Name: Desktop
+    Value: 1852384
+  Exists: 0

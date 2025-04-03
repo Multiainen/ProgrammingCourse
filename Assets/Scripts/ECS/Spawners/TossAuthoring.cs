@@ -5,7 +5,7 @@ using Unity.Entities;
 using UnityEngine;
 
 // authoring for projectile spawner entity
-[InternalBufferCapacity(2)]
+[InternalBufferCapacity(4)]
 public struct TossBufferElement : IBufferElementData
 {
     public Entity ItemEntity;

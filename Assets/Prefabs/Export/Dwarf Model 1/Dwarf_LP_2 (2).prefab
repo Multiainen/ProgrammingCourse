@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8490000525966802797
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 516.3682
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 507.65155
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      propertyPath: m_Name
+      value: Dwarf_LP_2 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2304194696244600683}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 353354864926447363}
+  m_SourcePrefab: {fileID: 100100000, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+--- !u!1 &8724567243656806972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 79cf3b024eb04e14a90f344e5761ac58, type: 3}
+  m_PrefabInstance: {fileID: 8490000525966802797}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &2304194696244600683
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724567243656806972}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 24049f5c037fb244eaaea6bedd1758d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &353354864926447363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8724567243656806972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e861cd728fd49b69e30e17bd76642da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bakerData:
+    animations:
+    - animationID: DwarfWalk
+      animatorStateName: DwarfWalk
+      animationType: 0
+      singleClipData:
+        animationClip: {fileID: 7400000, guid: 8bf961dd731dde54bafa9b780541165c, type: 2}
+      dualClipBlendData:
+        blendParameterName: 
+        clip1:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        clip2:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        nbrOfInBetweenSamples: 0
+      loop: 1
+      additionalAnimatorParameterValues: []
+      additionalAnimatorStatesPerLayer: []
+    - animationID: DwarfDed
+      animatorStateName: DwarfDed
+      animationType: 0
+      singleClipData:
+        animationClip: {fileID: 7400000, guid: 0742d8a41824e23498043f210a6af46b, type: 2}
+      dualClipBlendData:
+        blendParameterName: 
+        clip1:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        clip2:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        nbrOfInBetweenSamples: 0
+      loop: 0
+      additionalAnimatorParameterValues: []
+      additionalAnimatorStatesPerLayer: []
+    - animationID: DwarfFly
+      animatorStateName: DwarfFly
+      animationType: 0
+      singleClipData:
+        animationClip: {fileID: 7400000, guid: a869bbd35d91a214b97b20f9233d805a, type: 2}
+      dualClipBlendData:
+        blendParameterName: 
+        clip1:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        clip2:
+          parameterValue: 0
+          animationClip: {fileID: 0}
+        nbrOfInBetweenSamples: 0
+      loop: 1
+      additionalAnimatorParameterValues: []
+      additionalAnimatorStatesPerLayer: []
+    generateAnimationIdsEnum: 0
+    animationIdsEnumName: DwarfAnimID
+    usePredefinedAnimationEventIds: 0
+    predefinedAnimationEventIds: []
+    generateAnimationEventIdsEnum: 0
+    animationEventIdsEnumName: 
+    attachmentAnchors: []
+    generateAttachmentAnchorIdsEnum: 0
+    attachmentAnchorIdsEnumName: 
+    boneUsage:
+      numberOfBonesPerVertex: 6
+      boneUsagesPerLoD: []
+    transformUsageFlagsParent: 2
+    transformUsageFlagsChildren: 1
+  gpuEcsAnimator: {fileID: 849052099149267310, guid: f461bb78477a4c9448240b64a5b6286f, type: 3}

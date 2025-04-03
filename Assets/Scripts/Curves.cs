@@ -123,7 +123,7 @@ public static class Curves
         float horizontalSpeed = math.cos(angle) * velocity;
         float verticalSpeed = math.sin(angle) * velocity;
 
-        return math.normalize(horizontalDirection * horizontalSpeed + new float3(0, 1, 0) * verticalSpeed);
+        return -horizontalDirection * horizontalSpeed + new float3(0, 1, 0) * verticalSpeed;
     }
 
     public static float3 PredictiveLaunchDirection(float3 start, float3 target, float launchVelocity, float targetVelocity, float3 targetHeading)
@@ -145,7 +145,7 @@ public static class Curves
         float horizontalSpeed = math.cos(angle) * launchVelocity;
         float verticalSpeed = math.sin(angle) * launchVelocity;
 
-        return math.normalize(horizontalDirection * horizontalSpeed + new float3(0, 1, 0) * verticalSpeed);
+        return horizontalDirection * horizontalSpeed + new float3(0, 1, 0) * verticalSpeed;
     }
 
     // assumes the target Y value will remain unchanged (curve control points represent X,Z)
@@ -1397,18 +1397,26 @@ public static class Curves
     }
 
     // hypotenuse orientation is botLeft to topRight
+    //public static float HeightInTile(float bL, float bR, float tL, float tR, float2 point, bool orientationTop = true)
+    //{
+    //    float d; float height;
+    //    if (math.lengthsq(point - new float2(0, 1)) < math.lengthsq(point - new float2(1, 0)))
+    //    {
+    //        d = LineIntersect(float2.zero, new float2(0, 1), new float2(1, 1), point).y;
+    //        height = FloatLerp(bL, tL, d);
+    //        return FloatLerp(height, tR, BaseOps.Mgtd(new float2(point.x, point.y - d)) / BaseOps.Mgtd(new float2(1, 1 - d)));
+    //    }
+    //    d = LineIntersect(float2.zero, new float2(1, 0), new float2(1, 1), point).x;
+    //    height = FloatLerp(bL, bR, d);
+    //    return FloatLerp(height, tR, BaseOps.Mgtd(point - d) / BaseOps.Mgtd(new float2(1, 1) - d));
+    //}
+
+    // hypotenuse orientation is botLeft to topRight
     public static float HeightInTile(float bL, float bR, float tL, float tR, float2 point, bool orientationTop = true)
     {
-        float d; float height;
-            if (math.lengthsq(point - new float2(0, 1)) < math.lengthsq(point - new float2(1, 0)))
-            {
-                 d = LineIntersect(float2.zero, new float2(0, 1), new float2(1, 1), point).y;
-                 height = FloatLerp(bL, tL, d);
-                return FloatLerp(height, tR, BaseOps.Mgtd(new float2(point.x, point.y - d)) / BaseOps.Mgtd(new float2(1, 1 - d)));
-            }
-             d = LineIntersect(float2.zero, new float2(1, 0), new float2(1, 1), point).x;
-             height = FloatLerp(bL, bR, d);
-            return FloatLerp(height, tR, BaseOps.Mgtd(point - d) / BaseOps.Mgtd(new float2(1, 1) - d));
+        if (math.lengthsq(point - new float2(0, 1)) < math.lengthsq(point - new float2(1, 0)))
+            return FloatLerp(FloatLerp(bL, tL, point.y), FloatLerp(bL, tR, point.y), point.x);
+        return FloatLerp(FloatLerp(bL, bR, point.x), FloatLerp(bL, tR, point.x), point.y);
     }
 
     public static Vector2 LineIntersect(Vector2 a1, Vector2 a2, Vector2 b1, Vector2 b2)

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5163174578677736333}
   - component: {fileID: 7393487203850471672}
   - component: {fileID: 2607368330981623576}
+  - component: {fileID: 2391814330625589981}
   m_Layer: 0
   m_Name: Tower 1_GpuEcsAnimator
   m_TagString: Untagged
@@ -85,9 +86,9 @@ MonoBehaviour:
     y: 2.936521
     z: 0.0041800737
   m_PrimitiveSize:
-    x: 5.835597
-    y: 5.835597
-    z: 5.835597
+    x: 40
+    y: 40
+    z: 40
   m_PrimitiveOrientation:
     Value:
       x: -0
@@ -95,15 +96,15 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_Capsule:
-    Height: 5.835597
-    Radius: 2.9177985
+    Height: 40
+    Radius: 20
     Axis: 2
   m_Cylinder:
-    Height: 5.835597
-    Radius: 2.9177985
+    Height: 40
+    Radius: 20
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 2.9177985
+  m_SphereRadius: 20
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.08753394
@@ -116,7 +117,7 @@ MonoBehaviour:
     m_Template: {fileID: 0}
     m_CollisionResponse:
       m_Override: 0
-      m_Value: 0
+      m_Value: 3
     m_Friction:
       m_Override: 0
       m_Value:
@@ -222,6 +223,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f826b677ec2c1f448bcbcd79c6515ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2391814330625589981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253021750036650191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MotionType: 0
+  m_Smoothing: 0
+  m_Mass: 100000000
+  m_LinearDamping: 999999
+  m_AngularDamping: 999999
+  m_InitialLinearVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_InitialAngularVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_GravityFactor: 0
+  m_OverrideDefaultMassDistribution: 0
+  m_CenterOfMass:
+    x: 0
+    y: 0
+    z: 0
+  m_Orientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_InertiaTensor:
+    x: 0.4
+    y: 0.4
+    z: 0.4
+  m_WorldIndex: 0
+  m_CustomTags:
+    Tag00: 0
+    Tag01: 0
+    Tag02: 0
+    Tag03: 0
+    Tag04: 0
+    Tag05: 0
+    Tag06: 0
+    Tag07: 0
 --- !u!1 &7405529659705946579
 GameObject:
   m_ObjectHideFlags: 0

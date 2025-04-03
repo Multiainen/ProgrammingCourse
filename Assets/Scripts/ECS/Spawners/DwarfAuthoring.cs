@@ -21,6 +21,5 @@ public class DwarfAuthoringBaker : Baker<DwarfAuthoring>
         AddComponent(entity, new DwarfTarget { });
         AddComponent(entity, new PhysTarget { });
         AddComponent(entity, new DwarfData { });
-        AddComponent(entity, new TargetRot { });
     }
 }

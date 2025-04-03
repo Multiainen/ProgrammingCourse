@@ -60,3 +60,16 @@ public class ProjectileTest : MonoBehaviour
         }
     }
 }
+
+[VFXType(VFXTypeAttribute.Usage.GraphicsBuffer)]
+public struct ExplosionVFXData
+{
+    public Vector3 Position; // position to spawn in
+    public float Size; // directional velocity on spawn
+
+    public ExplosionVFXData(Vector3 position, float size)
+    {
+        Position = position;
+        Size = size;
+    }
+}

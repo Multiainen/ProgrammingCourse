@@ -21,11 +21,16 @@ public readonly partial struct AspectProjectile : IAspect
 
 public readonly partial struct AspectProjectileImpulse : IAspect
 {
-    private readonly RefRO<TagProjectile> projectile;
+    private readonly RefRW<TagProjectile> projectile;
     private readonly RefRO<PhysImpulse> impulse;
 
     public void ApplyImpulse(ref PhysicsVelocity velocity)
     {
-        velocity.Linear += impulse.ValueRO.value;
+        velocity.Linear *= impulse.ValueRO.value;
+    }
+
+    public void SetDecayTimer(float time)
+    {
+        projectile.ValueRW.despawnTimer = .1f;
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2773087088167220487}
   - component: {fileID: -1513980537938141622}
   - component: {fileID: 6577340571156487641}
+  - component: {fileID: -7459807594795502969}
   m_Layer: 0
   m_Name: Tower 2_GpuEcsAnimator
   m_TagString: Untagged
@@ -78,9 +79,9 @@ MonoBehaviour:
     y: 2.4551756
     z: -0.09613371
   m_PrimitiveSize:
-    x: 4.899609
-    y: 4.899609
-    z: 4.899609
+    x: 30
+    y: 30
+    z: 30
   m_PrimitiveOrientation:
     Value:
       x: -0
@@ -88,15 +89,15 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_Capsule:
-    Height: 4.899609
-    Radius: 2.4498045
+    Height: 30
+    Radius: 15
     Axis: 2
   m_Cylinder:
-    Height: 4.899609
-    Radius: 2.4498045
+    Height: 30
+    Radius: 15
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 2.4498045
+  m_SphereRadius: 15
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.07349414
@@ -215,6 +216,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f826b677ec2c1f448bcbcd79c6515ee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-7459807594795502969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398391660426886341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccea9ea98e38942e0b0938c27ed1903e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MotionType: 0
+  m_Smoothing: 0
+  m_Mass: 100000000
+  m_LinearDamping: 999999
+  m_AngularDamping: 999999
+  m_InitialLinearVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_InitialAngularVelocity:
+    x: 0
+    y: 0
+    z: 0
+  m_GravityFactor: 0
+  m_OverrideDefaultMassDistribution: 0
+  m_CenterOfMass:
+    x: 0
+    y: 0
+    z: 0
+  m_Orientation:
+    Value:
+      x: 0
+      y: 0
+      z: 0
+    RotationOrder: 4
+  m_InertiaTensor:
+    x: 0.4
+    y: 0.4
+    z: 0.4
+  m_WorldIndex: 0
+  m_CustomTags:
+    Tag00: 0
+    Tag01: 0
+    Tag02: 0
+    Tag03: 0
+    Tag04: 0
+    Tag05: 0
+    Tag06: 0
+    Tag07: 0
 --- !u!1 &6434290237783147491
 GameObject:
   m_ObjectHideFlags: 0
